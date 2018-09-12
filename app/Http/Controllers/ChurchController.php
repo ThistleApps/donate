@@ -81,8 +81,8 @@ class ChurchController extends Controller
 
     public function PostFDMSdata($id)
     {
-            //$datetime = Carbon::now("UTC");
-            $datetime = 1536703000;
+            $UTC = Carbon::now("UTC");
+            $datetime = strtotime($UTC);
             $x_login = "HCO-KW-EN-279";
             $transaction_key = "ioSB4gSXyyYiaS23BXc1";
             $x_fp_sequence = rand(1000, 100000) + 123456;
