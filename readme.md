@@ -1,5 +1,7 @@
 This project uses Laravel & the admin toolkit Voyager.  https://laravelvoyager.com  
 
+The project is a donation application which connects to First Data Payeezy hosted payment page.  It is a multi-tenant site where churches can register for an account and take one-time or recurring donations.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
